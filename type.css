@@ -1,0 +1,189 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.FundoDeTela {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.container {
+text-align: center;
+padding-top: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imagem-esquerda {
+    max-width: 30%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.imagem-direita {
+    max-width: 30%;
+    height: auto;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto-titulo {
+    text-align: left;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-informacao-pilotos-equipes {
+    text-align: center;
+}
+
+.texto-informacao-pilotos-equipes {
+    float: left;
+    margin-left: 5px;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 50%;
+    float: left;
+    opacity: 0,5;
+    margin-left: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table th, td {
+    border: 3px solid black;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+th {
+    color: red;
+}
+
+td {
+    color: darkblue;
+}
+
+hr {
+    border-color: black;
+    border-width: 2px;
+}
+
+.linhatopo {
+    border: none;
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 0;
+}
+
+.tabelacontainer {
+    text-align: center;
+}
+
+.tabelacontainer table {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.texto-gp-bahrein {
+    text-align: center;
+    color: white
+}
+
+.texto-gp-arabia {
+    text-align: center;
+    color: white;
+}
+
+.texto-gp-australia {
+    text-align: center;
+    color: white;
+	}
+
+
+.tabela1 {
+    margin-left: 250px;
+}
+
+.tabela3 {
+    width: 50%;
+}
+
+.tabela4 {
+    width: 40%;
+} 
+
+.tabela5 {
+    width: 40%;
+}
+
+.tabela6 {
+    width: 40%;
+    text-align: center;
+}
+
+.tabela7 {
+    width: 40%;
+    text-align: center;
+}
+
+.tabela8 {
+    width: 40%;
+    text-align: center;
+}
+
+.titulo-tabela-sistema-pontuacao {
+    text-align: center;
+}
+
+.tabela-estilo-pontuacao {
+    margin-left: 380px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto-sistema-pontuacao {
+    text-align: center;
+}
+
+.titulotabelapontuacao{
+    color: black
+}
+
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
